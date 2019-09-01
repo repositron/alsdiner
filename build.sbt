@@ -1,4 +1,5 @@
-name := "AlsDiner"
+organization        := "ljw"
+name := "alsdiner"
 
 version := "0.1"
 
