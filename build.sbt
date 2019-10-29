@@ -3,7 +3,7 @@ name := "alsdiner"
 
 version := "0.1"
 
-scalaVersion := "2.13.0"
+scalaVersion := "2.13.1"
 
 val CirceVersion           = "0.12.0-RC3"
 val CirceConfigVersion     = "0.7.0-M1"
@@ -11,7 +11,8 @@ val ScalaTestVersion       = "3.0.8"
 val ScalaCheckVersion      = "1.14.0"
 
 libraryDependencies ++= Seq(
-  "org.typelevel"         %% "cats-effect" % "2.0.0-RC1",
+  "org.typelevel"         %% "cats-core"           % "2.0.0",
+  "org.typelevel"         %% "cats-effect" % "2.0.0",
   "org.http4s"            %% "http4s-blaze-server"    % "0.21.0-M4",
   "org.http4s"            %% "http4s-circe"   % "0.21.0-M4",
   "org.http4s"            %% "http4s-dsl"     % "0.21.0-M4",
